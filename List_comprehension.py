@@ -23,3 +23,8 @@ print([fruit for fruit in fruits if fruit[0] == 'O'])
 D={"Name":"Ashu","Gender":"Male","Age":22}
 D1={key:value for key,value in D.items() if len(key)>3 }
 print(D1)
+
+#create a dictionary from a list which have key as 'number' and value as 'square of the number'
+L=[1,2,3,4,5,6,7]
+D2={i:i*i for i in L}
+print(D2)
